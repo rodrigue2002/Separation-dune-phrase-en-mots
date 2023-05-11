@@ -6,9 +6,7 @@ public class TokenizableString{
         String phrase = sc.nextLine();
         String [] mots = phrase.split(" ");    // split() permet de séparer les mots de la phrase en array
         System.out.println("Voici les mots de la phrase: ");
-        for(int i=0; i<mots.length; i++){
-            System.out.println("'" + mots[i] + "'");
-        }
+        chaineDeCaracteres(mots);
     }
 
     public static void chaineDeCaracteres(String[] a){
